@@ -1,5 +1,11 @@
 # README
 
+## Welcome, new collaborators 👋
+
+Thanks for taking an interest in this project! Feel free to explore, ask
+questions, and propose improvements—every contribution helps us ship better
+software together.
+
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
