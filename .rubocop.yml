@@ -1,0 +1,72 @@
+inherit_from:
+  - .rubocop_botable.yml
+
+inherit_mode:
+  merge:
+    - Exclude
+
+require:
+  - rubocop-thread_safety
+
+AllCops:
+  Exclude:
+    - bin/**/*
+    - db/schema.rb
+    - playground.rb
+
+### Cops ###
+
+Naming/MethodParameterName:
+  AllowedNames: as, at, by, db, id, in, io, ip, of, on, os, pp, to, cc, ar
+
+Naming/PredicateName:
+  Exclude:
+    - spec/**/*
+
+Rails/ApplicationRecord:
+  Exclude:
+    - db/migrate/*.rb
+
+Rails/FilePath:
+  Exclude:
+    - config/initializers/autoload_paths.rb
+
+Rails/LexicallyScopedActionFilter:
+  Exclude:
+    - "app/controllers/users/sessions_controller.rb"
+    - "app/controllers/users/registrations_controller.rb"
+
+Rails/NegateInclude:
+  Exclude:
+    - .irbrc
+
+# We sometimes want to have bulk operations
+Rails/SkipsModelValidations:
+  Exclude:
+    - db/migrate/*.rb
+    - lib/**/*
+
+Rails/BulkChangeTable:
+  Enabled: false
+
+# Add bang(!) operator for unhandled save/update/destroy methods.
+Rails/SaveBang:
+  Enabled: true
+
+# List of environments we are using
+Rails/UnknownEnv:
+  Environments:
+    - production
+    - development
+    - test
+
+Rails/I18nLocaleTexts:
+  Enabled: true
+  Exclude:
+    - app/controllers/admin/**/*
+
+Rails/CreateTableWithTimestamps:
+  Enabled: false
+
+FactoryBot/ExcessiveCreateList:
+  MaxAmount: 15

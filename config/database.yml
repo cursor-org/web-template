@@ -1,0 +1,20 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  # For details on connection pooling, see Rails configuration guide
+  # https://guides.rubyonrails.org/configuring.html#database-pooling
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+
+development:
+  <<: *default
+  database: botable_development
+
+test:
+  <<: *default
+  database: botable_test
+
+production:
+  <<: *default
+  database: botable_production
+  username: botable
+  password: <%= ENV["BOTABLE_DATABASE_PASSWORD"] %>

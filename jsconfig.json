@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "module": "es2022",
+    "types": ["vite/client"],
+    "moduleResolution": "node",
+    "lib": ["dom", "es6"],
+    "paths": {
+      "~/*": ["./app/frontend/app/*"],
+      "#/*": ["/"]
+    }
+  }
+}

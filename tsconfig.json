@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "isolatedModules": true,
+    "resolveJsonModule": true,
+    "module": "es2022",
+    "types": ["vite/client"],
+    "lib": ["dom", "es6"],
+    "jsx": "react-jsx",
+    "paths": {
+      "~/*": ["./app/frontend/*"],
+      "#/*": ["./*"]
+    },
+    "allowSyntheticDefaultImports": true
+  },
+  "esModuleInterop": true
+}

@@ -1,0 +1,491 @@
+Layout/LineContinuationSpacing:
+  Enabled: false
+
+Style/QuotedSymbols:
+  Enabled: false
+
+Style/RedundantInitialize:
+  Enabled: false
+
+Style/RedundantRegexpEscape:
+  Enabled: false
+
+Style/YodaCondition:
+  Enabled: false
+
+Capybara/MatchStyle:
+  Enabled: false
+
+Capybara/NegationMatcher:
+  Enabled: false
+
+Capybara/SpecificActions:
+  Enabled: false
+
+Capybara/SpecificMatcher:
+  Enabled: false
+
+Capybara/SpecificFinders:
+  Enabled: false
+
+FactoryBot/AssociationStyle:
+  Enabled: false
+
+FactoryBot/CreateList:
+  Enabled: false
+
+FactoryBot/FactoryAssociationWithStrategy:
+  Enabled: false
+
+FactoryBot/RedundantFactoryOption:
+  Enabled: false
+
+Lint/RedundantStringCoercion:
+  Enabled: false
+
+Naming/AccessorMethodName:
+  Enabled: false
+
+Performance/Casecmp:
+  Enabled: false
+
+Performance/CollectionLiteralInLoop:
+  Enabled: false
+
+Performance/CompareWithBlock:
+  Enabled: false
+
+Performance/MapCompact:
+  Enabled: false
+
+Performance/RedundantBlockCall:
+  Enabled: false
+
+Performance/TimesMap:
+  Enabled: false
+
+RSpec/BeEmpty:
+  Enabled: false
+
+RSpec/IndexedLet:
+  Enabled: false
+
+Rails/ThreeStateBooleanColumn:
+  Enabled: false
+
+Style/Attr:
+  Enabled: false
+
+Style/ClassEqualityComparison:
+  Enabled: false
+
+Style/RedundantArrayConstructor:
+  Enabled: false
+
+Style/RedundantParentheses:
+  Enabled: false
+
+Capybara/ClickLinkOrButtonStyle:
+  Enabled: false
+
+Capybara/RSpec/HaveSelector:
+  Enabled: false
+
+RSpec/SpecFilePathFormat:
+  Enabled: false
+
+FactoryBot/ConsistentParenthesesStyle:
+  Enabled: false
+
+FactoryBot/FactoryNameStyle:
+  Enabled: false
+
+Rails/DotSeparatedKeys:
+  Enabled: false
+
+Rails/StripHeredoc:
+  Enabled: false
+
+Rails/ToFormattedS:
+  Enabled: false
+
+Rails/RootPublicPath:
+  Enabled: false
+
+Rails/FreezeTime:
+  Enabled: false
+
+Rails/WhereMissing:
+  Enabled: false
+
+Rails/RootPathnameMethods:
+  Enabled: false
+
+Rails/TopLevelHashWithIndifferentAccess:
+  Enabled: false
+
+Rails/ActionControllerFlashBeforeRender:
+  Enabled: false
+
+Rails/ToSWithArgument:
+  Enabled: false
+
+Rails/ActionOrder:
+  Enabled: false
+
+Rails/EnvLocal:
+  Enabled: false
+
+Rails/WhereNotWithMultipleConditions:
+  Enabled: false
+
+Rails/IgnoredColumnsAssignment:
+  Enabled: false
+
+Rails/ResponseParsedBody:
+  Enabled: false
+
+Style/ComparableClamp:
+  Enabled: false
+
+Style/TernaryParentheses:
+  Enabled: false
+
+RSpec/AnyInstance:
+  Enabled: false
+
+RSpec/ContextWording:
+  Enabled: false
+
+RSpec/DescribeClass:
+  Enabled: false
+
+RSpec/DescribedClass:
+  Enabled: false
+
+RSpec/ExampleWording:
+  Enabled: false
+
+RSpec/ExpectInHook:
+  Enabled: false
+
+RSpec/ImplicitSubject:
+  Enabled: false
+
+RSpec/MessageSpies:
+  Enabled: false
+
+RSpec/LetSetup:
+  Enabled: false
+
+RSpec/NotToNot:
+  Enabled: false
+
+RSpec/Pending:
+  Enabled: false
+
+RSpec/ChangeByZero:
+  Enabled: false
+
+RSpec/NoExpectationExample:
+  Enabled: false
+
+RSpec/ClassCheck:
+  Enabled: false
+
+RSpec/SortMetadata:
+  Enabled: false
+
+RSpec/DuplicatedMetadata:
+  Enabled: false
+
+RSpec/PendingWithoutReason:
+  Enabled: false
+
+RSpec/SkipBlockInsideExample:
+  Enabled: false
+
+RSpec/RedundantAround:
+  Enabled: false
+
+RSpec/ContainExactly:
+  Enabled: false
+
+RSpec/MatchArray:
+  Enabled: false
+
+RSpecRails/HaveHttpStatus:
+  Enabled: false
+
+RSpecRails/InferredSpecType:
+  Enabled: false
+
+RSpecRails/TravelAround:
+  Enabled: false
+
+RSpec/MultipleExpectations:
+  Enabled: false
+
+RSpec/MultipleMemoizedHelpers:
+  Enabled: false
+
+RSpec/NestedGroups:
+  Enabled: false
+
+RSpec/SubjectStub:
+  Enabled: true
+
+Layout/ClassStructure:
+  Enabled: false
+
+Layout/HeredocArgumentClosingParenthesis:
+  Enabled: false
+
+Layout/LineEndStringConcatenationIndentation:
+  Enabled: false
+
+Layout/LineLength:
+  Enabled: false
+
+Layout/MultilineAssignmentLayout:
+  Enabled: false
+
+Layout/RedundantLineBreak:
+  Enabled: false
+
+Lint/AmbiguousBlockAssociation:
+  Enabled: false
+
+Lint/MissingSuper:
+  Enabled: false
+
+Lint/ShadowingOuterLocalVariable:
+  Enabled: false
+
+Metrics/AbcSize:
+  Enabled: false
+
+Metrics/BlockLength:
+  Enabled: false
+
+Metrics/ClassLength:
+  Enabled: false
+
+Metrics/CyclomaticComplexity:
+  Enabled: false
+
+Metrics/MethodLength:
+  Enabled: false
+
+Metrics/ModuleLength:
+  Enabled: false
+
+Metrics/ParameterLists:
+  Enabled: false
+
+Metrics/PerceivedComplexity:
+  Enabled: false
+
+Naming/RescuedExceptionsVariableName:
+  Enabled: false
+
+Style/ArrayCoercion:
+  Enabled: false
+
+Style/AsciiComments:
+  Enabled: false
+
+Style/AutoResourceCleanup:
+  Enabled: false
+
+Style/CaseEquality:
+  Enabled: false
+
+Style/CaseLikeIf:
+  Enabled: false
+
+Style/ClassAndModuleChildren:
+  Enabled: false
+
+Style/ClassMethodsDefinitions:
+  Enabled: false
+
+Style/ClassVars:
+  Enabled: false
+
+Style/CollectionMethods:
+  Enabled: false
+
+Style/CombinableLoops:
+  Enabled: false
+
+Style/CommentAnnotation:
+  Enabled: false
+
+Style/CommentedKeyword:
+  Enabled: false
+
+Style/ConstantVisibility:
+  Enabled: false
+
+Style/DateTime:
+  Enabled: false
+
+Style/DisableCopsWithinSourceCodeDirective:
+  Enabled: false
+
+Style/DoubleNegation:
+  Enabled: false
+
+Style/EndlessMethod:
+  Enabled: false
+
+Style/ExpandPathArguments:
+  Enabled: false
+
+Style/ExplicitBlockArgument:
+  Enabled: false
+
+Style/FloatDivision:
+  Enabled: false
+
+Style/FormatStringToken:
+  Enabled: false
+
+Style/GuardClause:
+  Enabled: false
+
+Style/HashAsLastArrayItem:
+  Enabled: false
+
+Style/HashLikeCase:
+  Enabled: false
+
+Style/IfUnlessModifier:
+  Enabled: false
+
+Style/ImplicitRuntimeError:
+  Enabled: false
+
+Style/InlineComment:
+  Enabled: false
+
+Style/InverseMethods:
+  Enabled: false
+
+Style/IpAddresses:
+  Enabled: false
+
+Style/Lambda:
+  Enabled: false
+
+Style/MethodCallWithArgsParentheses:
+  Enabled: false
+
+Style/MethodCalledOnDoEndBlock:
+  Enabled: false
+
+Style/ModuleFunction:
+  Enabled: false
+
+Style/MultilineBlockChain:
+  Enabled: false
+
+Style/MultilineTernaryOperator:
+  Enabled: false
+
+Style/MultipleComparison:
+  Enabled: false
+
+Style/NegatedIf:
+  Enabled: false
+
+Style/NegatedIfElseCondition:
+  Enabled: false
+
+Style/Next:
+  Enabled: false
+
+Style/NumberedParameters:
+  Enabled: false
+
+Style/NumberedParametersLimit:
+  Enabled: false
+
+Style/NumericLiterals:
+  Enabled: false
+
+Style/NumericPredicate:
+  Enabled: false
+
+Style/OpenStructUse:
+  Enabled: false
+
+Style/OptionHash:
+  Enabled: false
+
+Style/OptionalBooleanParameter:
+  Enabled: false
+
+Style/ParallelAssignment:
+  Enabled: false
+
+Style/PerlBackrefs:
+  Enabled: false
+
+Style/PreferredHashMethods:
+  Enabled: false
+
+Style/RaiseArgs:
+  Enabled: false
+
+Style/RedundantArgument:
+  Enabled: false
+
+Style/RedundantSelfAssignment:
+  Enabled: false
+
+Style/RegexpLiteral:
+  Enabled: false
+
+Style/SelectByRegexp:
+  Enabled: false
+
+Style/Send:
+  Enabled: false
+
+Style/SingleLineBlockParams:
+  Enabled: false
+
+Style/SoleNestedConditional:
+  Enabled: false
+
+Style/SpecialGlobalVars:
+  Enabled: false
+
+Style/StaticClass:
+  Enabled: false
+
+Style/StringConcatenation:
+  Enabled: false
+
+Style/StringHashKeys:
+  Enabled: false
+
+Style/StructInheritance:
+  Enabled: false
+
+Style/SymbolArray:
+  Enabled: false
+
+Style/TopLevelMethodDefinition:
+  Enabled: false
+
+Style/TrailingUnderscoreVariable:
+  Enabled: false
+
+Style/WhileUntilModifier:
+  Enabled: false
+
+Style/WordArray:
+  Enabled: false

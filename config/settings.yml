@@ -1,0 +1,37 @@
+host: 'http://localhost:3000'
+production_host: 'www.botable.com'
+product_name: 'Botable'
+
+debug: false
+
+sentry:
+  dsn:
+
+inertia:
+  ssr_url: http://localhost:13714
+
+notifications:
+  devise:
+    confirmation_instructions:
+    reset_password_instructions:
+
+courier:
+  api_token:
+  client_token:
+  timeout: 5
+
+google_tag_manager:
+  container_id:
+
+google_analytics:
+  measurement_id:
+
+google_oauth:
+  client_id:
+  client_secret:
+
+clarity:
+  project_id:
+
+web3_forms:
+  api_key:

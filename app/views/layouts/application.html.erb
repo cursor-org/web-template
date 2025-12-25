@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html class="<%= cookies.fetch("ui-theme", "system") %>" lang="<%= I18n.locale %>">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=5">
+  <link rel="manifest" href="/site.webmanifest">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#020817">
+  <meta name="creator" content="botable.com">
+  <meta name="publisher" content="botable.com">
+  <script type="application/ld+json">
+    {
+      "@context" : "https://schema.org",
+      "@type" : "WebSite",
+      "name" : "<%= Settings.product_name %>",
+      "url" : "https://<%= Settings.production_host %>/"
+    }
+  </script>
+  <%= csrf_meta_tags %>
+  <%= csp_meta_tag %>
+  <%= vite_client_tag %>
+  <%= inertia_headers %>
+  <%= vite_react_refresh_tag %>
+  <%= vite_javascript_tag 'application.tsx' %>
+  <%= Gon::Base.render_data %>
+  <%= Sentry.get_trace_propagation_meta.html_safe %>
+</head>
+
+<body class="font-body">
+  <div id="root" class="isolate"></div>
+  <%= yield %>
+</body>
+
+</html>

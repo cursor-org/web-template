@@ -1,0 +1,22 @@
+{
+  "name": "Top Yield Properties",
+  "version": "1.0.0",
+  "stack": "heroku-22",
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "standard-1x"
+    },
+    "worker": {
+      "quantity": 0,
+      "size": "standard-1x"
+    }
+  },
+  "addons": ["heroku-postgresql:essential-0", "judoscale:white"],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs",
+      "url": "heroku/ruby"
+    }
+  ]
+}

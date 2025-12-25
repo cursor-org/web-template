@@ -1,0 +1,22 @@
+{
+  "all": {
+    "sourceCodeDir": "app/frontend",
+    "entrypointsDir": "app/entrypoints",
+    "ssrEntrypoint": "app/frontend/app/ssr.tsx",
+    "watchAdditionalPaths": []
+  },
+  "development": {
+    "autoBuild": true,
+    "publicOutputDir": "vite-dev",
+    "ssrBuildEnabled": true,
+    "port": 3036
+  },
+  "test": {
+    "autoBuild": true,
+    "publicOutputDir": "vite-test",
+    "port": 3037
+  },
+  "production": {
+    "ssrBuildEnabled": true
+  }
+}
